@@ -1,0 +1,32 @@
+# Python字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python虚拟环境
+venv/
+env/
+.venv/
+.env
+
+# PyCharm IDE配置
+.idea/
+
+# VSCode配置
+.vscode/
+
+# tushare本地行情缓存
+data/*.csv
+
+# 程序运行输出产物（不提交结果，使用者clone后自己运行生成）
+*.png
+*.jpg
+*.csv
+*.html
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# 本地环境变量（存放tushare token，防止泄露密钥）
+.env
